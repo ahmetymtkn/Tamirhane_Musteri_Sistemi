@@ -1,4 +1,4 @@
-# Tamirhane Yönetim Sistemi - Yapay Zeka Destekli Geliştirme Süreci
+# Tamirhane Müşteri Sistemi - Yapay Zeka Destekli Geliştirme Süreci
 
 
 
