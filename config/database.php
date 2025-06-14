@@ -10,7 +10,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'deneme789');
+define('DB_NAME', 'tamirhane');
 
 // PDO bağlantısının oluşturulması
 try {
