@@ -204,12 +204,12 @@ CREATE TABLE tamir_islemleri (
 
 ## 📸 Ekran Görüntüleri
 
-![Görsel1](https://github.com/ahmetymtkn/c-highlighter/blob/main/src/program_gorsel1.png)
+![Görsel1](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image1.png)
 
-![Görsel2](https://github.com/ahmetymtkn/c-highlighter/blob/main/src/program_gorsel1.png)
+![Görsel2](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image2.png)
 
-![Görsel3](https://github.com/ahmetymtkn/c-highlighter/blob/main/src/program_gorsel1.png)
+![Görsel3](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image3.png)
 
-![Görsel4](https://github.com/ahmetymtkn/c-highlighter/blob/main/src/program_gorsel1.png)
+![Görsel4](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image4.png)
 
 
