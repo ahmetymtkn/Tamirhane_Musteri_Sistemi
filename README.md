@@ -200,7 +200,9 @@ CREATE TABLE tamir_islemleri (
 - Araç bakım merkezleri
 - Oto tamirciler
 
-[Uygulama Demo Videosu](#)
+[UYGULAMA DEMO VİDEO](#)
+
+[SİTE LİNK](http://95.130.171.20/~st22360859056)
 
 ## 📸 Ekran Görüntüleri
 
