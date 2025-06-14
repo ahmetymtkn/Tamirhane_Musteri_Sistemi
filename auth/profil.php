@@ -2,8 +2,8 @@
 /**
  * Kullanıcı Profil Sayfası
  * 
- * Bu dosya kullanıcıların kendi profillerini düzenlemelerini sağlar.
- * Kullanıcı adı, e-posta, isim ve şifre güncellenebilir.
+ * Bu dosya kullanıcının kendi profilini görüntülemesini ve düzenlemesini sağlar.
+ * Kullanıcılar kişisel bilgilerini ve şifrelerini güncelleyebilirler.
  */
 
 // Gerekli dosyaların dahil edilmesi
@@ -11,12 +11,12 @@ require_once '../config/database.php';
 require_once 'session.php';
 
 // Oturum kontrolü
-if (!isLoggedIn()) {
-    header('Location: /tamirhane/auth/login.php');
+if (!isLoggedIn()) {    
+    header('Location: ../auth/login.php');
     exit;
 }
 
-// Hata mesajları için dizi ve kullanıcı bilgilerinin çekilmesi
+// Kullanıcı bilgilerinin veritabanından çekilmesi
 $errors = [];
 $user_id = $_SESSION['user_id'];
 $stmt = $pdo->prepare("SELECT * FROM kullanicilar WHERE id = ?");
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt->execute([$username, $email, $name, $user_id]);
         }
         $_SESSION['username'] = $username; // Oturum bilgisini güncelle
-        header('Location: /tamirhane/pages/dashboard.php?success=Profil güncellendi');
+        header('Location: ../pages/dashboard.php?success=Profil güncellendi');
         exit;
     }
 }
@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <input type="password" class="form-control" id="password" name="password">
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">Kaydet</button>
-                                <a href="/tamirhane/pages/dashboard.php" class="btn btn-secondary mt-2 w-100">İptal</a>
+                                <a href="../pages/dashboard.php" class="btn btn-secondary mt-2 w-100">İptal</a>
                             </form>
                         </div>
                     </div>
