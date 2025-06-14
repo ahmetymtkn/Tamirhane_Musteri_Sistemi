@@ -2,6 +2,11 @@
 
 Tamirhane Yönetim Sistemi, araç servis ve tamiratlarının yönetimi için tasarlanmış kapsamlı bir web uygulamasıdır. Bu sistem, tamirhanelerin günlük operasyonlarını dijitalleştirerek iş süreçlerini optimize etmeyi amaçlamaktadır.
 
+*[UYGULAMA DEMO VİDEO](https://youtu.be/_plo1NdmYH0)*
+
+*[SİTE LİNK](http://95.130.171.20/~st22360859056)*
+
+
 ## 🌟 Özellikler
 
 ### 👥 Kullanıcı Yönetimi
@@ -200,18 +205,21 @@ CREATE TABLE tamir_islemleri (
 - Araç bakım merkezleri
 - Oto tamirciler
 
-[UYGULAMA DEMO VİDEO](#)
-
-[SİTE LİNK](http://95.130.171.20/~st22360859056)
 
 ## 📸 Ekran Görüntüleri
 
 ![Görsel1](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image1.png)
 
+**_(Görsel 1- Anasayfa)_**
+
 ![Görsel2](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image2.png)
+
+**_(Görsel 2- Araç Düzenle Sayfası)_**
 
 ![Görsel3](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image3.png)
 
+**_(Görsel 3- Tamir İşlemi Ekle Sayfaso)_**
+
 ![Görsel4](https://github.com/ahmetymtkn/Tamirhane_Musteri_Sistemi/blob/main/assets/images/image4.png)
 
-
+**_(Görsel 4- Kayıt Sayfası)_**
