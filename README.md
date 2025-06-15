@@ -2,7 +2,7 @@
 
 Tamirhane Yönetim Sistemi, araç servis ve tamiratlarının yönetimi için tasarlanmış kapsamlı bir web uygulamasıdır. Bu sistem, tamirhanelerin günlük operasyonlarını dijitalleştirerek iş süreçlerini optimize etmeyi amaçlamaktadır.
 
-*[UYGULAMA DEMO VİDEO](https://youtu.be/_plo1NdmYH0)*
+*[UYGULAMA DEMO VİDEO](https://drive.google.com/file/d/19QJAqNoNaJxXBfFEJb5AR02QlkSYk9At/view?usp=sharing)*
 
 *[SİTE LİNK](http://95.130.171.20/~st22360859056)*
 
